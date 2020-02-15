@@ -181,7 +181,7 @@ nav {
   background: #fff;
   z-index: 1000;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   display: none;
   -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
@@ -239,9 +239,30 @@ nav ul li a {
 /*  Header
 /*-----------------------------------------------------------------------------------*/
 
+@media only screen and (max-width: 600px) {
+  #header {
+    /* background: url("../images/slide3.jpg") repeat scroll center center / cover !important;
+    background-position: -18px 34px !important; */
+    background-position: -115px 1px !important;
+  }
+
+  .performed-for-res {
+    display: flex !important;
+    justify-content: center;
+  }
+
+  .services-block span {
+    text-align: center !important;
+  }
+}
+
+.performed-for-res {
+  display: block;
+}
+
 #header {
   background: url("../images/slide1.jpg") repeat scroll center center / cover;
-  height: 100vh;
+  height: 57vh;
   width: 100%;
 }
 
@@ -292,6 +313,12 @@ nav ul li a {
   height: auto;
   background: #f7f7f7;
   padding-top: 190px;
+}
+
+@media only screen and (max-width: 600px) {
+  #about {
+    padding-top: 40px !important;
+  }
 }
 
 #about .div-img-bg {
