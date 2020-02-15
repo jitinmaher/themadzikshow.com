@@ -254,6 +254,11 @@ nav ul li a {
   .services-block span {
     text-align: center !important;
   }
+
+  .logo img {
+    width: 60px;
+    height: 50px;
+  }
 }
 
 .performed-for-res {
