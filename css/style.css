@@ -12,7 +12,7 @@
 body {
   background: #ffffff;
   color: #898989;
-  font-family: 'Poppins', helvetica;
+  font-family: 'Ubuntu', helvetica;
   font-size: 15px;
   font-weight: 300;
   line-height: 20px;
@@ -341,13 +341,15 @@ nav ul li a {
 }
 
 #about .about-descr .p-heading {
-  font-family: 'Playfair Display', serif;
-  font-size: 28px;
+  font-family: 'Ubuntu', serif;
+  font-size: 22px;
+  margin-top: 5px;
   text-align: left;
+  color: #666;
 }
 
 #about .about-descr .separator {
-  max-width: 80%;
+  max-width: 100%;
   margin-bottom: 0;
   text-align: left;
 }
